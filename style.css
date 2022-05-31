@@ -20,5 +20,7 @@ body {
   position: relative;
   width: 400px;
   height: 320px;
-  background: #fff;
+  background: #fff
+    radial-gradient(var(--clr) 0px, var(--clr) 7px, transparent 7px);
+  background-size: 20px 20px;
 }
